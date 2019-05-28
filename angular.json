@@ -8,6 +8,11 @@
       "sourceRoot": "projects/noodle-lib/src",
       "projectType": "library",
       "prefix": "noodle",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
@@ -43,7 +48,11 @@
       "sourceRoot": "projects/noodle-sample/src",
       "projectType": "application",
       "prefix": "app",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

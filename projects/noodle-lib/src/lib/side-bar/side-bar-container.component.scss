@@ -22,8 +22,8 @@ $header-height: 60px;
   }
 
   .content {
+    padding-top: $header-height;
     padding-left: 0px;
-    min-height: calc(100vh - #{$header-height});
     width: 100%;
     transition: all 0.3s;
 

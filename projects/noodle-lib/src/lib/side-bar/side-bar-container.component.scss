@@ -1,0 +1,34 @@
+$side-bar-width: 250px;
+$header-height: 60px;
+
+.noodle-side-bar-wrapper {
+  display: flex;
+  width: 100%;
+
+  .side-bar {
+    width: $side-bar-width;
+    position: fixed;
+    top: $header-height;
+    left: -$side-bar-width;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+
+    &.active {
+      left: 0;
+    }
+  }
+
+  .content {
+    padding-left: 0px;
+    min-height: calc(100vh - #{$header-height});
+    width: 100%;
+    transition: all 0.3s;
+
+    &.active {
+      padding-left: $side-bar-width
+    }
+  }
+}

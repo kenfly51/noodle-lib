@@ -1,0 +1,10 @@
+<div class="noodle-side-bar-wrapper">
+    <!-- Sidebar -->
+    <nav [ngClass]="status ? 'side-bar active' : 'side-bar'">
+        <ng-template [ngTemplateOutlet]="sideBar?.sideBarMenu?.templateRef"></ng-template>
+    </nav>
+    <!-- Page Content -->
+    <div [ngClass]="status ? 'content active' : 'content'">
+        <ng-template [ngTemplateOutlet]="sideBar?.sideBarContent?.templateRef"></ng-template>
+    </div>
+</div>

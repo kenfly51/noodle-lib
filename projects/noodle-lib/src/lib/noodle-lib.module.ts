@@ -9,6 +9,7 @@ import { SideBarContainerComponent } from './side-bar/side-bar-container.compone
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { SideBarMenu } from './side-bar/side-bar-menu.directive';
 import { SideBarContent } from './side-bar/side-bar-content.directive';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SideBarContent } from './side-bar/side-bar-content.directive';
     SideBarContainerComponent,
     SideBarComponent,
     SideBarMenu,
-    SideBarContent
+    SideBarContent,
+    FooterComponent
   ],
   imports: [
     CommonModule
@@ -34,7 +36,8 @@ import { SideBarContent } from './side-bar/side-bar-content.directive';
     SideBarContainerComponent,
     SideBarComponent,
     SideBarMenu,
-    SideBarContent
+    SideBarContent,
+    FooterComponent
   ]
 })
 export class NoodleLibModule { }

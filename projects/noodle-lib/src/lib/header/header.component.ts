@@ -7,21 +7,10 @@ import {
   QueryList,
   TemplateRef
 } from '@angular/core';
+import { NgHeaderLogo } from './header-logo.directive';
+import { NgHeaderMenu } from './header-menu.directive';
+import { NgHeaderProfile } from './header-profile.directive';
 
-@Directive({selector: 'ng-template[ngHeaderMenu]'})
-export class NgHeaderMenu {
-  constructor(public templateRef: TemplateRef<any>) {}
-}
-
-@Directive({selector: 'ng-template[ngHeaderLogo]'})
-export class NgHeaderLogo {
-  constructor(public templateRef: TemplateRef<any>) {}
-}
-
-@Directive({selector: 'ng-template[ngHeaderProfile]'})
-export class NgHeaderProfile {
-  constructor(public templateRef: TemplateRef<any>) {}
-}
 
 @Component({
   selector: 'noodle-header',

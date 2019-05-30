@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import {CommonModule} from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NoodleLibComponent } from './noodle-lib.component';
 import { HeaderComponent } from './header/header.component';
 import { NgHeaderLogo } from './header/header-logo.directive';
 import { NgHeaderMenu } from './header/header-menu.directive';
@@ -15,7 +14,6 @@ import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
-    NoodleLibComponent,
     HeaderComponent,
     NgHeaderMenu,
     NgHeaderLogo,
@@ -33,7 +31,6 @@ import { LoginComponent } from './login/login.component';
     ReactiveFormsModule
   ],
   exports: [
-    NoodleLibComponent,
     HeaderComponent,
     NgHeaderMenu,
     NgHeaderLogo,

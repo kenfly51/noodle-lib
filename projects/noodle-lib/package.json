@@ -1,6 +1,6 @@
 {
   "name": "noodle-lib",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Angular components built from the ground up using Bootstrap 4",
   "author": "Instant Noodle <ntn.f51@gmail.com>",
   "peerDependencies": {

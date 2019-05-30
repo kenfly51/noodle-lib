@@ -14,7 +14,7 @@ Angular components built from the ground up using Bootstrap 4
   </thead>
   <tbody>
     <tr>
-      <td>1.0.0</td>
+      <td>1.x.x</td>
       <td>7.0.0</td>
       <td>4.0.0</td>
     </tr>
@@ -63,8 +63,6 @@ export class YourAppModule {
 
 The header component consist of three parts, header's logo, menus and profile, you are freedom on designs and styles them by using `ngHeaderLog`, `ngHeaderMenu` and `ngHeaderProfile` directives
 
-![Header Sample][header]
-
 Code
 ```html
 <noodle-header class="header">
@@ -101,8 +99,6 @@ Code
 ## Sidebar component
 
 This component provide you ability to extend your menu on the left side, you can toggle the sidebar programmatically by using `toggleSidebar` method. The `ngSideBarMenu` will render the left side menu while `ngSideBarContent` will render the content on the right. These must be enclosed by `SideBarContainerComponent`
-
-![Sidebar Sample][sidebar]
 
 Code
 ```html
@@ -164,8 +160,6 @@ Code
 
 The simple login form with username and password
 
-![Login Sample][login]
-
 Code
 ```html
 <noodle-login class="login-form" (login)="onLogin($event)" [submitted]="submitted" [loading]="loggingIn"></noodle-login>
@@ -182,8 +176,6 @@ onLogin($event) {
   <tbody>
     <tr>
       <td>submitted</td>
-      <td></td>
-      <td></td>
       <td colspan="3">
         Type: boolean
         </br>
@@ -192,9 +184,7 @@ onLogin($event) {
     </tr>
     <tr>
       <td>loading</td>
-      <td></td>
-      <td></td>
-      <td colspan="3">
+      <td>
         Type: boolean
         </br>
         Boolean flag to indicate that the form is loading by displaying a spinner
@@ -208,18 +198,10 @@ onLogin($event) {
   <tbody>
     <tr>
       <td>login</td>
-      <td></td>
-      <td></td>
-      <td colspan="3">
+      <td>
         Fired when click Login button from the form and receive {username, password} from the $event
       </td>
     </tr>
   </tbody>
 </table>
-
-[header]: https://github.com/kenfly51/noodle-lib/tree/develop/projects/noodle-lib/images/header.png "Header sample"
-
-[sidebar]: https://github.com/kenfly51/noodle-lib/tree/develop/projects/noodle-lib/images/sidebar.png "Sidebar sample"
-
-[login]: https://github.com/kenfly51/noodle-lib/tree/develop/projects/noodle-lib/images/login.png "Login sample"
 

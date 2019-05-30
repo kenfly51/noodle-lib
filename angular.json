@@ -67,9 +67,13 @@
               "projects/noodle-sample/src/assets"
             ],
             "styles": [
-              "projects/noodle-sample/src/styles.css"
+              "projects/noodle-sample/src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+          ],
             "es5BrowserSupport": true
           },
           "configurations": {

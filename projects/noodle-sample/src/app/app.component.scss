@@ -1,0 +1,38 @@
+.sidebar {
+  width: 250px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #7386D5;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.header {
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .my-profile {
+    button::after {
+      display: none;
+    }
+    .profile {
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+    }
+  }
+}
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+
+  .login-form {
+    width: 30rem;
+  }
+}

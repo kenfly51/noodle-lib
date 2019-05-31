@@ -1,6 +1,6 @@
 # Noodle Lib Example
 
-This repository consist two projects `noodle-lib (projects/noolde-lib)` and an example to demonstrate how to use this library.
+This repository consist two projects `noodle-lib (projects/noodle-lib)` and an example `noodle-sample (projects/noodle-sample)` to demonstrate how to use this library.
 
 ## Development server
 

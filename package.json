@@ -1,5 +1,5 @@
 {
-  "name": "noodle-lib",
+  "name": "noodle-ui",
   "version": "1.0.4",
   "scripts": {
     "ng": "ng",
@@ -22,6 +22,7 @@
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "jquery": "^3.4.1",
+    "noodle-lib": "^1.0.4",
     "popper": "^1.0.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",

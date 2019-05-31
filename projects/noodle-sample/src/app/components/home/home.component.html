@@ -1,0 +1,76 @@
+
+
+<noodle-header class="header">
+  <ng-template ngHeaderLogo>
+      <a href="/home">
+        <img class="logo" src="../assets/angular.svg" >
+      </a>
+  </ng-template>
+  <ng-template ngHeaderMenu>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Docs</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+      </li>
+  </ng-template>
+  <ng-template ngHeaderProfile>
+      <div class="dropdown my-profile">
+        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+            <img class="profile" src="../assets/avatar.jpg">
+          </button>
+          <div class="dropdown-menu  dropdown-menu-right">
+            <a class="dropdown-item" href="#">My Profile</a>
+            <a class="dropdown-item" (click)="logOut()">Sign Out</a>
+          </div>
+        </div>
+  </ng-template>
+</noodle-header>
+<noodle-side-bar-container>
+  <noodle-side-bar>
+    <ng-template ngSideBarMenu>
+      <div class="sidebar-header">
+          <h3>Sidebar</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+          <li>
+              <a href="#">Page 1</a>
+          </li>
+          <li>
+              <a href="#">Page 2</a>
+          </li>
+          <li>
+              <a href="#">Page 3</a>
+          </li>
+      </ul>
+    </ng-template>
+    <ng-template ngSideBarContent>
+      <div  class="main-content">
+        <button type="button" class="btn btn-info" (click)="toggleSidebar()">
+            <span>Toggle Sidebar</span>
+        </button>
+        <p>
+          Lorem Ipsum
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim, orci vel laoreet finibus, orci ipsum tincidunt arcu, eu posuere purus lacus eget felis. Nulla facilisi. Sed varius suscipit nulla, sit amet fermentum sem tristique ut. In nunc eros, vestibulum vel auctor convallis, consequat ut lectus. Praesent a fermentum mi. Donec congue ipsum eu erat lacinia ornare. Mauris eget tellus tristique, faucibus diam eget, ultricies magna. Proin tempor elit sit amet odio gravida, sagittis viverra elit pharetra. Sed vehicula lacinia nibh, eget tempus risus elementum vel. Donec vitae justo non nunc lobortis molestie.
+
+Donec et nisi ex. Aliquam accumsan, ligula eget ornare vestibulum, tortor nulla accumsan leo, ut convallis turpis sapien ut magna. Aliquam erat volutpat. Etiam sed mauris id justo commodo imperdiet. Pellentesque nec ipsum libero. In lacinia facilisis posuere. Duis eget tempor dolor.
+
+Cras fermentum tempus augue. Nulla facilisi. Curabitur ullamcorper dui lobortis, ornare risus at, lacinia risus. Curabitur pretium, lorem sed commodo auctor, enim elit tincidunt nunc, accumsan pellentesque ipsum lorem non neque. Nam et orci id turpis ornare auctor. Mauris ut mi hendrerit, porta turpis ut, semper nisl. Sed placerat quam finibus euismod lacinia. Nam eget iaculis odio. In pharetra laoreet consequat. Etiam semper urna malesuada, feugiat sem sit amet, pulvinar risus. Pellentesque vitae ultricies massa. Sed et ornare augue, eget faucibus leo.
+        </p>
+      </div>
+    </ng-template>
+  </noodle-side-bar>
+</noodle-side-bar-container>
+<noodle-footer class="footer">
+  <p> Super-powered by KMS ©2019. Code licensed under an <a href="license" title="License text">MIT-style License</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+  </p>
+  <p>
+    Version 1.0
+  </p>
+</noodle-footer>

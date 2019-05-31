@@ -27,12 +27,13 @@
     }
   }
 }
-.login-form-container {
-  display: flex;
-  justify-content: center;
-  padding: 32px;
 
-  .login-form {
-    width: 30rem;
-  }
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.main-content {
+  padding: 16px;
 }

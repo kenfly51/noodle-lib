@@ -2,6 +2,11 @@
 
 Angular components built from the ground up using Bootstrap 4
 
+
+## TODO
+1. Unit tests 
+2. Restructure scss files to utilize scss's power tools like inheritance, css module ...
+
 ## Dependencies
 
 <table>
@@ -221,4 +226,3 @@ onLogin($event) {
     </tr>
   </tbody>
 </table>
-

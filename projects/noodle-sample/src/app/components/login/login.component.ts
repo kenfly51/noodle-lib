@@ -16,6 +16,10 @@ export class LoginComponent implements OnInit {
 
   loggingIn: boolean = false;
 
+  username: string = 'admin';
+
+  password: string = 'admin';
+
   onLogin($event) {
     this.submitted = true;
     this.loggingIn = true;

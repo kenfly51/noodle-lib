@@ -10,6 +10,8 @@ export class LoginComponent implements OnInit {
     loginForm: FormGroup;
     @Input() loading: boolean = false;
     @Input() submitted: boolean = false;
+    @Input() username: string = '';
+    @Input() password: string = '';
     @Output() login = new EventEmitter<any>();
 
     constructor(private formBuilder: FormBuilder) {}

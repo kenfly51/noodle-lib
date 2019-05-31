@@ -190,6 +190,23 @@ onLogin($event) {
         Boolean flag to indicate that the form is loading by displaying a spinner
       </td>
     </tr>
+      <tr>
+      <td>username</td>
+      <td>
+        Type: string
+        </br>
+        Initial value for username
+      </td>
+    </tr>
+    </tr>
+      <tr>
+      <td>password</td>
+      <td>
+        Type: string
+        </br>
+        Initial value for password
+      </td>
+    </tr>
   </tbody>
 </table>
 
